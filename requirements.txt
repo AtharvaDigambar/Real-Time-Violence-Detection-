@@ -1,0 +1,9 @@
+Ensure all dependencies are listed:
+flask
+opencv-python
+torch
+pyyaml
+ftfy
+regex
+tqdm
+clip @ git+https://github.com/openai/CLIP.git
