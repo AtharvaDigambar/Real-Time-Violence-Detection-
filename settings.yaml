@@ -1,0 +1,10 @@
+model-settings:
+  device: "cuda"  # Use "cpu" if CUDA is unavailable
+  model-name: "ViT-B/32"
+  prediction-threshold: 0.5
+
+label-settings:
+  labels:
+    - "violence"
+    - "non-violence"
+  default: "non-violence"
